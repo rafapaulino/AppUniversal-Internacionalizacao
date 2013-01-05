@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface PrincipalViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UIView *minhaView;
+@property (strong, nonatomic) IBOutlet UILabel *lblAnimacao;
+@property (strong, nonatomic) IBOutlet UIButton *btnAnimar;
+
+-(IBAction)animar:(id)sender;
 
 @end

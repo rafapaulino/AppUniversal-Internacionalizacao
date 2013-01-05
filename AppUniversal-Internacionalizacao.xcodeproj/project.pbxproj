@@ -21,6 +21,7 @@
 		6A13CA251613484700ADAEDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A13CA031613484700ADAEDA /* Foundation.framework */; };
 		6A13CA2D1613484700ADAEDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A13CA2B1613484700ADAEDA /* InfoPlist.strings */; };
 		6A13CA301613484700ADAEDA /* AppUniversal_InternacionalizacaoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A13CA2F1613484700ADAEDA /* AppUniversal_InternacionalizacaoTests.m */; };
+		6A13CA3B161350EC00ADAEDA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A13CA3D161350EC00ADAEDA /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,12 @@
 		6A13CA2C1613484700ADAEDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6A13CA2E1613484700ADAEDA /* AppUniversal_InternacionalizacaoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppUniversal_InternacionalizacaoTests.h; sourceTree = "<group>"; };
 		6A13CA2F1613484700ADAEDA /* AppUniversal_InternacionalizacaoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppUniversal_InternacionalizacaoTests.m; sourceTree = "<group>"; };
+		6A13CA3C161350EC00ADAEDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6A13CA431613516100ADAEDA /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A13CA441613516100ADAEDA /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = pt; path = pt.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		6A13CA451613516100ADAEDA /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = pt; path = pt.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		6A13CA461613516100ADAEDA /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6A13CA471613516100ADAEDA /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +134,7 @@
 		6A13CA081613484700ADAEDA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6A13CA3D161350EC00ADAEDA /* Localizable.strings */,
 				6A13CA091613484700ADAEDA /* AppUniversal-Internacionalizacao-Info.plist */,
 				6A13CA0A1613484700ADAEDA /* InfoPlist.strings */,
 				6A13CA0D1613484700ADAEDA /* main.m */,
@@ -229,6 +237,7 @@
 				6A13CA0C1613484700ADAEDA /* InfoPlist.strings in Resources */,
 				6A13CA151613484700ADAEDA /* MainStoryboard_iPhone.storyboard in Resources */,
 				6A13CA181613484700ADAEDA /* MainStoryboard_iPad.storyboard in Resources */,
+				6A13CA3B161350EC00ADAEDA /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +301,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				6A13CA0B1613484700ADAEDA /* en */,
+				6A13CA471613516100ADAEDA /* pt */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -300,6 +310,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				6A13CA141613484700ADAEDA /* en */,
+				6A13CA441613516100ADAEDA /* pt */,
 			);
 			name = MainStoryboard_iPhone.storyboard;
 			sourceTree = "<group>";
@@ -308,6 +319,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				6A13CA171613484700ADAEDA /* en */,
+				6A13CA451613516100ADAEDA /* pt */,
 			);
 			name = MainStoryboard_iPad.storyboard;
 			sourceTree = "<group>";
@@ -316,8 +328,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				6A13CA2C1613484700ADAEDA /* en */,
+				6A13CA431613516100ADAEDA /* pt */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6A13CA3D161350EC00ADAEDA /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A13CA3C161350EC00ADAEDA /* en */,
+				6A13CA461613516100ADAEDA /* pt */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

@@ -46,14 +46,25 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="btnAnimar" destination="ZSM-Ks-Cep" id="Dnt-PX-x0O"/>
-                        <outlet property="lblAnimacao" destination="tDM-2C-iQ1" id="fwS-LO-MXP"/>
+                        <outlet property="btnAnimar" destination="3" id="L6c-Ks-Q8j"/>
+                        <outlet property="lblAnimacao" destination="3" id="myg-Yj-8kY"/>
                         <outlet property="minhaView" destination="bti-mb-W9Z" id="Nc7-rU-Sr3"/>
                     </connections>
                 </viewController>
             </objects>
         </scene>
     </scenes>
+    <classes>
+        <class className="PrincipalViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PrincipalViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="animar:"/>
+                <relationship kind="outlet" name="btnAnimar" candidateClass="UIView"/>
+                <relationship kind="outlet" name="lblAnimacao" candidateClass="UIView"/>
+                <relationship kind="outlet" name="minhaView" candidateClass="UIView"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
